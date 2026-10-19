@@ -1,0 +1,23 @@
+Algoritmo Descuento monto de compra()
+//Declaraciones
+  Definir val_compra como real
+
+//Cuerpo
+  Escribir "Ingrese el monto de la compra"
+  Leer val_compra
+  
+  Si val_compra >= 200 hacer
+    Descuento <- val_compra * 0.15
+  SiNo 
+      Si val_compra >= 100 hacer
+        Descuento <- val_compra * 0.1
+      SiNo 
+        Descuento <- val_compra * 0.05
+      FinSi
+  FinSi
+
+  Total <- val_compra - descuento
+
+  Escribir "Pago con descuento:", Descuento
+  Escribir "Total a pagar:", Total
+FinAlgoritmo
