@@ -1,0 +1,16 @@
+Algoritmo Tabla de multiplicar()
+//Declaraciones
+  Definir K como entero
+
+//Cuerpo
+  Escribir "Ingrese numero para multiplicar"
+  Leer K
+
+  i <- 1
+
+  Mientras k <= 10 hacer
+    Multiplicación <- k * i
+    Escribir k, "x", i, "=", Multiplicacion
+    i <- i + 1
+  FinMientras
+FinAlgoritmo
