@@ -1,6 +1,6 @@
 Algoritmo: Gasto semanal_transporte
   //Declaraciones
-    Definir viajes_dia, cost_pasaje, dias_semana
+    Definir viajes_dia, cost_pasaje, dias_semana como enteros
 
   //Cuerpo
     Escribir "Viajes al dia"
