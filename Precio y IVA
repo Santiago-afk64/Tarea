@@ -1,0 +1,17 @@
+Inicio
+//Declaraciones
+  Definir prec_producto como real
+
+//Cuerpo
+  Escribir "Ingrese precio del producto"
+  Leer prec_producto
+  
+  Descuento <- prec_prdoucto * 0.20
+  prec_total<- prec_producto - descuento
+
+  IVA <- prec_total * 0.15
+  Total <- prec_total + IVA
+
+  Escribir "Precio con descuento:", prec_total
+  Escribir "Precio a cobrar", Total
+FinAlgoritmo
