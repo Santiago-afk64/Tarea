@@ -1,4 +1,4 @@
-Algoritmo: Gasto semanal_transporte
+Algoritmo Gasto semanal_transporte()
   //Declaraciones
     Definir viajes_dia, cost_pasaje, dias_semana como enteros
 
