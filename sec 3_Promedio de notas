@@ -13,3 +13,4 @@ Algoritmo Promedio_Notas()
   Prom_Aritmetico <- (n1 + n2 + n3)/3
 
   Escribir "Su promedio es:", Prom_Aritmetico
+FinAlgoritmo
