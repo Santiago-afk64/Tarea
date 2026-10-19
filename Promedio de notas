@@ -1,0 +1,15 @@
+Algoritmo Promedio_Notas()
+//Declaraciones
+  Definir n1, n2, n3 como reales
+
+//Cuerpo
+  Escribir "ingrese nota 1"
+  Leer n1
+  Escribir "Ingrese nota 2"
+  Leer n2
+  Escribir "Ingrse nota 3"
+  Leer n3
+
+  Prom_Aritmetico <- (n1 + n2 + n3)/3
+
+  Escribir "Su promedio es:", Prom_Aritmetico
