@@ -1,0 +1,18 @@
+Algoritmo Sueldo y horas extras()
+//Declaraciones
+  Definir cant_horas, val_hora, Sueldo, Sueldo_extras como reales
+
+//Cuerpo
+  Escribir "Ingrese la cantidad de horas"
+  Leer cant_horas
+  Escribir "Ingrese el valor por hora"
+  Leer val_hora
+  
+  Si cant_horas <= 40 hacer
+    Sueldo <- cant_horas * val_hora
+  SiNo
+    Sueldo_extras <- sueldo + ((cant_horas – 40) × val_hora × 2)
+  FinSi
+  Escribir "Sueldo semanal sin horas extras es:", Sueldo
+  Escribir "Sueldo semanal con horas extras es:", Sueldo_extras
+FinAlgoritmo
