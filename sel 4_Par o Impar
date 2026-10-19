@@ -1,0 +1,14 @@
+Algoritmo Par y Impar
+//Declaraciones
+  Definir N como entero
+
+//Cuerpo
+  Escribir "Ingrese el numero para determinar"
+  Leer N
+
+  Si N MOD 2= 0 hacer
+    Escribir "Es par"
+  SiNo
+    Escribir "No es par"
+  FinSi
+FinAlgoritmo
