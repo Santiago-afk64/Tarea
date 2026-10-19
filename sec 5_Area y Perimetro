@@ -1,0 +1,16 @@
+Algoritmo Area y Perimetro del rectangulo()
+//Declaraciones
+  Definir l, a como reales
+
+//Cuerpo
+  Escribir "Ingrese el largo del terreno"
+  Leer l
+  Escribir "Ingrese el ancho del terreno"
+  Leer a
+
+  Area <- l * a
+  Perimetro <- 2 * (l * a)
+
+  Escribir "Su area es:", Area
+  Escribir "Su perimetro es:", Perimetro
+FinAlgoritmo
