@@ -1,0 +1,16 @@
+Algoritmo: Gasto semanal_transporte
+  //Declaraciones
+    Definir viajes_dia, cost_pasaje, dias_semana
+
+  //Cuerpo
+    Escribir "Viajes al dia"
+    Leer viajes_dia
+    Escribir "Costo del pasaje"
+    Leer cost_pasaje
+    Escribir "Dias a la semana"
+    Leer dias_semana
+
+    Gasto_semanal <- viajes_dia * cost_pasaje * dias_semana
+
+    Escribir "El total en el transporte es:", Gasto_semanal
+FinAlgoritmo
