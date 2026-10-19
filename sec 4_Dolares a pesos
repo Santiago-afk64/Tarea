@@ -1,0 +1,14 @@
+Algoritmo Dolares a Pesos()
+//Declaraciones
+  Definir cant_dolares, tipo_cambio como real
+
+//Cuerpo
+  Escribir "Ingrese la cantidad en dolares"
+  Leer cant_dolares
+  Escribir "Ingrese el tipo de cambio"
+  Leer tipo_cambio
+
+  Peso_Mexicano <- cant_dolares * tipo_cambio
+
+  Escribir "Su cantidad en Pesos es:", Peso_Mexicano
+FinAlgoritmo
