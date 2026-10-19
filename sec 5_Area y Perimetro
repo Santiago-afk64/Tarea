@@ -9,7 +9,7 @@ Algoritmo Area y Perimetro del rectangulo()
   Leer a
 
   Area <- l * a
-  Perimetro <- 2 * (l * a)
+  Perimetro <- 2 * (l + a)
 
   Escribir "Su area es:", Area
   Escribir "Su perimetro es:", Perimetro
