@@ -5,11 +5,9 @@ Algoritmo Salario anual()
 
 //Cuerpo
   salario <- 1500
-  año <- 0.6
-
-  Mientras salario >= año 
-    Total <- salario
+  Para año <- 1 hasta 6 hacer
     salario <- salario * 0.1
-  FinMientras
-  Print ("Su salario despues de 6 años es:"), Total
+    Escribir "Salario al finalizar el año", salario
+  FinPara
+  Escribir "Su salario despues de 6 años es:", salario
 FinAlgoritmo
