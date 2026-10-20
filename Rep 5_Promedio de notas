@@ -1,10 +1,15 @@
 Algoritmos Promedio de notas()
 //Declaraciones
   Definir N, i como enteros
+  Definir promedio, suma como real
 
 //Cuerpo
-  i <- 1 
   Escribir "Ingrese notas del estudiante"
   Leer N
 
-  Mientras 
+  Mientras N < 0 o N > 10 hacer
+    Escribir "Error: variable no permitidos"
+    Escribir "Ingrese la nota correctamente"
+    Leer N
+  FinMientras
+  
