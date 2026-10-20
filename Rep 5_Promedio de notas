@@ -1,0 +1,10 @@
+Algoritmos Promedio de notas()
+//Declaraciones
+  Definir N, i como enteros
+
+//Cuerpo
+  i <- 1 
+  Escribir "Ingrese notas del estudiante"
+  Leer N
+
+  Mientras 
