@@ -1,0 +1,22 @@
+Algoritmo Aprobado y Reprobado()
+//Declaraciones
+  Definir cant_estudiantes, aprobados, reprobados, i con enteros
+  Definir nota como real
+
+//Cuerpo
+  Escribir "Ingrese la cantidad de estudiantes"
+  Leer Cant_estudiantes
+
+  Aprobados <- 0
+  Reprobados <- 0
+  i <- 1
+
+  Mientras i <= cant_estudiantes hacer
+    Escribir "Ingrese las calificaciones del estudiante", i
+    Leer nota
+    Si nota >= 7 entonces
+      Print ("Aprobado")
+    SiNo
+      Print ("Reprobado")
+    FinSi
+  FinMientras
