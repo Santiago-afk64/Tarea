@@ -1,0 +1,15 @@
+Algoritmo Salario anual()
+//Declaraciones
+  Definir salario como entero
+  Definir año como real
+
+//Cuerpo
+  salario <- 1500
+  año <- 0.6
+
+  Mientras salario >= año 
+    Total <- salario
+    salario <- salario * 0.1
+  FinMientras
+  Print ("Su salario despues de 6 años es:"), Total
+FinAlgoritmo
