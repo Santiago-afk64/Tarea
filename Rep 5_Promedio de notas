@@ -12,4 +12,7 @@ Algoritmos Promedio de notas()
     Escribir "Ingrese la nota correctamente"
     Leer N
   FinMientras
-  
+
+  i <- 1
+
+  Mientras 
