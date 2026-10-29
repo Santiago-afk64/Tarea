@@ -8,7 +8,6 @@ dias_semana = int(input("Dias a la semana"))
 #Calculo
 
 Gasto_semanal = viajes_dia * cost_pasaje * dias_semana
-    #Gasto semanal
 
 #Salida
 
