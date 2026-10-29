@@ -1,1 +1,26 @@
+import java.util.Scanner;
 
+public class PrecioEIVA {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double prec_producto;
+        double descuento;
+        double prec_total;
+        double IVA;
+        double Total;
+
+        System.out.println("Ingrese precio del producto");
+        prec_producto = scanner.nextDouble();
+        
+        descuento = prec_producto * 0.20;
+        prec_total = prec_producto - descuento;
+
+        IVA = prec_total * 0.15;
+        Total = prec_total + IVA;
+
+        System.out.println("Precio con descuento: " + prec_total);
+        System.out.println("Precio a cobrar: " + Total);
+        
+        scanner.close();
+    }
