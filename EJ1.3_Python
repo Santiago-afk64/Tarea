@@ -8,7 +8,6 @@ n3 = float(input("Ingrese la nota 3"))
 #Calculo
 
 Prom_Aritmetico = (n1 + n2 + n3)/3
-      #Prom_Aritmetico
 
 #Salida 
 
