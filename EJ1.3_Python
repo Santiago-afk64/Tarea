@@ -11,4 +11,5 @@ Prom_Aritmetico = (n1 + n2 + n3)/3
       #Prom_Aritmetico
 
 #Salida 
+
 Print(f"El promedio aritmetico de las notas son: {Prom_Aritmetico:.2f}")
