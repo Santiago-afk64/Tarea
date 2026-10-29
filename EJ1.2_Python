@@ -1,3 +1,6 @@
+#Precio y IVA
+#Entrada de datos
+
 viajes_dia = int(input("Viajes al dia")) 
 cost_pasaje = int(input("Costo del pasaje"))
 dias_semana = int(input("Dias a la semana"))
