@@ -1,0 +1,21 @@
+#Descuento monto de compra
+#Entrada 
+
+val_compra = float(input("Ingrese el monto de la compra"))
+
+#Calculo
+
+  If val_compra >= 200:
+    Descuento = val_compra * 0.15
+  else
+      If val_compra >= 100:
+        Descuento = val_compra * 0.1
+      else
+        Descuento = val_compra * 0.05
+
+  Total = val_compra - descuento
+  
+#Salida
+
+  Print(f"Pago con descuento:{Descuento:.2f}") 
+  Print(f"Total a pagar:{Total:.2f}") 
