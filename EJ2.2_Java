@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class PromedioFinal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double promedio;
+
+        System.out.println("Ingrese promedio final");
+        promedio = scanner.nextDouble();
+
+        if (promedio >= 7) {
+            System.out.println("Aprueba");
+        } else {
+            System.out.println("No aprueba");
+        }
+        
+        scanner.close();
+    }
