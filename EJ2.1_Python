@@ -1,1 +1,15 @@
+horas = float(input("Ingrese las horas trabajadas en la semana: "))
+while horas < 0 or horas > 168:
+    print("Las horas deben estar entre 0 y 168.")
+    horas = float(input("Ingrese las horas trabajadas en la semana: "))
+tarifa = float(input("Ingrese el pago por hora: "))
+while tarifa <= 0:
+    print("El pago por hora debe ser mayor que 0.")
+    tarifa = float(input("Ingrese el pago por hora: "))
+if horas <= 40:
+    sueldo = horas * tarifa
+else:
+    sueldo = (40 * tarifa) + ((horas - 40) * tarifa * 2)
+print(f"El sueldo semanal es: ${sueldo:.2f}")
+
 
