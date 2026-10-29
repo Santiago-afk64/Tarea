@@ -1,1 +1,29 @@
+import java.util.Scanner;
 
+public class SueldoYHorasExtras {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double cant_horas, val_hora;
+        double Sueldo = 0, Sueldo_extras = 0;
+
+        System.out.println("Ingrese la cantidad de horas");
+        cant_horas = scanner.nextDouble();
+        
+        System.out.println("Ingrese el valor por hora");
+        val_hora = scanner.nextDouble();
+        
+        if (cant_horas <= 40) {
+            Sueldo = cant_horas * val_hora;
+            Sueldo_extras = Sueldo; // Si no hay horas extras, el total es el mismo
+        } else {
+            Sueldo = 40 * val_hora; // Sueldo base por 40 horas
+            Sueldo_extras = Sueldo + ((cant_horas - 40) * val_hora * 2);
+        }
+        
+        System.out.println("Sueldo semanal sin horas extras es: " + Sueldo);
+        System.out.println("Sueldo semanal con horas extras es: " + Sueldo_extras);
+        
+        scanner.close();
+    }
+}
