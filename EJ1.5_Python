@@ -1,0 +1,15 @@
+#Algoritmo Area y Perimetro del rectangulo
+#Entrada de datos
+
+l = float(input("Ingrese el largo del terreno"))
+a = float(input("Ingrese el ancho del terreno"))
+
+#Calculo
+
+Area = l * a
+Perimetro = 2 * (l + a)
+
+#Salida de resultados
+
+Print(f"Su area es: {Area:.2f}")
+Print(f"Su perimetro es: {Perimetro:.2f})
