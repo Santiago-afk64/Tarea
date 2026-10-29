@@ -1,0 +1,10 @@
+#Par y Impar
+#Entrada
+N = int(input"Ingrese el numero para determinar:")
+
+#Calculo
+
+If N MOD 2= 0:
+  Print("Es par")
+else
+  Print("No es par")
