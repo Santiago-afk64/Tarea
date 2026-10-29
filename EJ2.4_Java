@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ParImpar {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int N;
+
+        System.out.println("Ingrese el numero para determinar");
+        N = scanner.nextInt();
+        
+        if (N % 2 == 0) {
+            System.out.println("Es par");
+        } else {
+            System.out.println("No es par");
+        }
+        
+        scanner.close();
+    }
+}
