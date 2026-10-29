@@ -1,1 +1,27 @@
+import java.util.Scanner;
 
+public class GastoSemanalTransporte {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int viajes_dia;
+        double cost_pasaje;
+        int dias_semana;
+        double Gasto_semanal;
+
+        System.out.println("Viajes al dia:");
+        viajes_dia = scanner.nextInt();
+        
+        System.out.println("Costo del pasaje:");
+        cost_pasaje = scanner.nextDouble();
+        
+        System.out.println("Dias a la semana:");
+        dias_semana = scanner.nextInt();
+
+        Gasto_semanal = viajes_dia * cost_pasaje * dias_semana;
+
+        System.out.println("El total en el transporte es: " + Gasto_semanal);
+        
+        scanner.close();
+    }
+}
