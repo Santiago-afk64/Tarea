@@ -1,1 +1,23 @@
+import java.util.Scanner;
 
+public class DolaresAPesos {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double cant_dolares;
+        double tipo_cambio;
+        double Peso_Mexicano;
+
+        System.out.println("Ingrese la cantidad en dolares");
+        cant_dolares = scanner.nextDouble();
+        
+        System.out.println("Ingrese el tipo de cambio");
+        tipo_cambio = scanner.nextDouble();
+
+        Peso_Mexicano = cant_dolares * tipo_cambio;
+
+        System.out.println("Su cantidad en Pesos es: " + Peso_Mexicano);
+        
+        scanner.close();
+    }
+}
