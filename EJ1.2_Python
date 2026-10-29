@@ -1,4 +1,4 @@
-#Precio y IVA
+#Transporte
 #Entrada de datos
 
 viajes_dia = int(input("Viajes al dia")) 
