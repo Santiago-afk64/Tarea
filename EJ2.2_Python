@@ -1,0 +1,14 @@
+#Promedio Final()
+#Entada de datos
+  Definir promedio como real
+  
+//Cuerpo
+  Escribir "Ingrese promedio final"
+  Leer promedio
+
+  Si promedio >= 7 hacer
+    Escribir "Aprueba"
+  SiNo
+    Escribir "No aprueba"
+  FinSi
+FinAlgoritmo
