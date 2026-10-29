@@ -1,1 +1,25 @@
+import java.util.Scanner;
 
+public class AreaYPerimetroRectangulo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        double l, a;
+        double Area;
+        double Perimetro;
+
+        System.out.println("Ingrese el largo del terreno");
+        l = scanner.nextDouble();
+        
+        System.out.println("Ingrese el ancho del terreno");
+        a = scanner.nextDouble();
+
+        Area = l * a;
+        Perimetro = 2 * (l + a);
+
+        System.out.println("Su area es: " + Area);
+        System.out.println("Su perimetro es: " + Perimetro);
+        
+        scanner.close();
+    }
+}
