@@ -1,16 +1,9 @@
-#Precio y IVA()
-#Entrada de datos
-
 prec_producto = float(input("Ingrese precio del producto:"))
 
-#Cálculos
-
-Descuento = prec_prdoucto * 0.20
-prec_total = prec_producto - descuento
-IVA = prec_total * 0.15
-Total = prec_total + IVA
-
-#Salida de datos
+  Descuento = prec_prdoucto * 0.20
+  prec_total = prec_producto - descuento
+  IVA = prec_total * 0.15
+  Total = prec_total + IVA
 
 Print (f"Precio con descuento: {prec_total:.2f}")
 Print (f"Precio a cobrar: {Total:.2f}")
