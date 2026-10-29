@@ -7,8 +7,7 @@ val_compra = float(input("Ingrese el monto de la compra"))
 
   If val_compra >= 200:
     Descuento = val_compra * 0.15
-  else
-      If val_compra >= 100:
+  elif val_compra >= 100:
         Descuento = val_compra * 0.1
       else
         Descuento = val_compra * 0.05
